@@ -88,7 +88,18 @@ Run development server:
 python manage.py runserver
 ```
 
-Open the localhost url (ps.: http://127.0.0.1:800/) that's should be in the console.
+## 🚀 Running the application <a name = "deployment"></a>
+
+Open the terminal and inside the welcome-to-django-project run development server:
+
+```
+python manage.py runserver
+```
+The terminal will show the localhost url (ps.: http://127.0.0.1:8000/).
+
+As for now, we have 2 endpoint:
+- http://127.0.0.1:8000/blog
+- http://127.0.0.1:8000/foodlog (in development)
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
@@ -144,7 +155,7 @@ python manage.py shell
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
-Add additional notes about how to deploy this on a live system.
+TBD: ~~Add additional notes about how to deploy this on a live system.~~
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
